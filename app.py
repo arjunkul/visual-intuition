@@ -6,9 +6,9 @@ app = Flask(__name__)
 def simple_world():
     return render_template('simple.html')
 
-@app.route('/three')
-def three():
-    return render_template('three.html')
+@app.route('/who_whom')
+def who_whom():
+    return render_template('who_whom.html')
 
 @app.route('/')
 def p5view():
